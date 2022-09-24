@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    
+    <!-- Mis estilos <link rel="stylesheet" href="estilos.css"> -->
+    
+    <title>Ejercicio Juan Lavric - Codo a Codo</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" title="Esta misma página">Codo a Codo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" title="Un link que dirige a esta misma página">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://aulasvirtuales.bue.edu.ar/" title="Un link que dirige a la Plataforma de cursos de Codo a Codo">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="https://www.google.com/" title="Link desactivado; no importa a donde dirija">Desactivado</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <main class="container mt-4 mb-4 p-2">
+        
+        <div class="card-group">
+            <div class="card">
+              <img src="imagenes/html5.png" class="card-img-top" alt="Esto se ve si uno se queda con el mouse sobre la imagen">
+              <div class="card-body">
+                <h5 class="card-title">HTML5</h5>
+                <p class="card-text">A través de varios capítulos vamos a descubrir el principal lenguaje utilizado para la creación de páginas web: Hyper Text Markup Language, más conocido mediante sus siglas HTML</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">El HTML es un "lenguaje de marcado". Basa su sintaxis marcas, tags o etiquetas.</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="imagenes/css.png" class="card-img-top" alt="Acá, por ejemplo, pongo esto como texto alternativo de la imagen">
+              <div class="card-body">
+                <h5 class="card-title">CSS3</h5>
+                <p class="card-text">El CSS, es el segundo lenguaje más básico y esencial para crear páginas web; con él se define la parte de la presentación (cómo mostrar los elementos de la página, su posición, forma, espaciados, colores; toda la parte estética.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">El enfoque de CSS es servir para definir la capa de presentación; la parte relacionada con el aspecto.</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="imagenes/bootstrap.png" class="card-img-top" alt="Acá pongo algo, que haga referencia a que esta imagen representa a Bootstrap">
+              <div class="card-body">
+                <h5 class="card-title">Bootstrap</h5>
+                <p class="card-text">Boostrap es un Framework que permite generar en forma más sencilla y con menos código un FrontEnd de una página web en forma responsive y basándose en las cualidades de CSS.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Antes de utilizar Bootstrap, asegúrate de que tus páginas utilizan el doctype de HTML5</small>
+              </div>
+            </div>
+          </div>
+
+    </main>
+
+    <footer style="margin-bottom: 10px;">
+      <div class="container-fluid"> 
+        <form>
+          <label>Email</label>
+          <div class="input-group input-group-sm mb-3">
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-sm"
+            />
+          </div>
+          <p class="form-text"><small>Nunca comparta su Email.</small></p>
+
+          <label>Contraseña</label>
+          <div class="input-group input-group-sm mb-3">
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-sm"
+            />
+          </div>
+          <div>
+            <input type="checkbox" id="check" />
+            <label for="check">Verificar</label>
+          </div>
+          <br />
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </footer>
+    
+</body>
+</html>
